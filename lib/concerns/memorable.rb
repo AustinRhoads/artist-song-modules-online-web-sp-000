@@ -1,6 +1,6 @@
 module Memorable
 
-def initialize 
+def initialize
 self.class.all << self
 end
 
