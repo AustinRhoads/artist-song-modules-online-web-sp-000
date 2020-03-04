@@ -30,6 +30,6 @@ class Artist
     name.downcase.gsub(' ', '-')
   end
   def self.all
- @@all = @@artists
+ @@artists
   end
 end
