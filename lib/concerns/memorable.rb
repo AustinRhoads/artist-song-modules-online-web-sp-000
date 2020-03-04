@@ -8,7 +8,7 @@ def count
 self.all.count
 end
 
-def find_by_name(name) 
+def find_by_name(name)
 @@all.detect {|thing| thing.name == name}
 end
 
