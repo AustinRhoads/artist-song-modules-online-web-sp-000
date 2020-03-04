@@ -32,7 +32,7 @@ class Artist
   def to_param
     name.downcase.gsub(' ', '-')
   end
-  def self.all 
+  def self.all
  @@all = @@artists
   end
 end
